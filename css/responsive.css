@@ -264,7 +264,7 @@
     }
 
     h3.section-name {
-        position: absolute;   
+        position: absolute;
         left: -60px;
         top: 40px;
         transform: rotateZ(270deg);
@@ -282,10 +282,10 @@
         background: #404040;
     }
 
-    #skill{
+    #skill {
         flex-direction: row;
     }
-    
+
     .icon {
         width: 1300px;
         margin-top: 40px;
@@ -296,6 +296,87 @@
         height: 90px;
     }
 
+    #project .section-data {
+        width: 447px;
+    }
+
+    #project .section-info {
+        margin: 10px 0px;
+    }
+
+    .project-1>div {
+        height: 132% !important;
+    }
+
+    a.project-3 {
+        margin-top: 8%;
+    }
+
+    .project-3>div {
+        height: 123% !important;
+    }
+
+    a.project-5 {
+        margin-top: 10%;
+    }
+
+    .project-5>div {
+        height: 100% !important;
+    }
+
+    .project-6>div {
+        display: none;
+    }
+
+    #contact-us {
+        flex-direction: row;
+    }
+
+    .contact-icon {
+        margin-left: -25px;
+        font-size: 2.5rem;
+    }
+
+    h5.contact-title {
+        font-size: 2rem;
+    }
+
+    .social {
+        margin-top: 25px;
+    }
+
+    #contact-us>form {
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .input-box {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .comment {
+        height: 150px;
+    }
+
+    input {
+        font-size: 1.7rem !important;
+    }
+
+    input[type="submit"] {
+        height: 40px;
+        font-size: 2.5rem !important;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copy-right {
+        font-size: 2rem;
+    }
 
 
 }
@@ -306,212 +387,124 @@
 For Learge Screen 
  */
 
-    html {
-        font-size: 8px;
+    nav {
+        margin: 40px 25%;
     }
 
-    .btn {
-        width: 300px;
+    nav>a{
+        font-size: 3rem;
+    }
+
+    .mode {
+        width: 70px;
+        height: 35px;
+    }
+
+    .mode>i{
         font-size: 2.8rem;
     }
 
-    #nav-bar>li>a {
+    .protfolio-img>img {
+        height: 600px;
+    }
+
+    .protfolio-img {
+        height: 455px;
+    }
+
+    .achievement-value {
+        font-size: 6rem;
+    }
+
+    .achievement-topic {
         font-size: 3rem;
     }
 
-
-    #home {
-        width: 50%;
-        float: left;
-        height: 580px;
-    }
-
-    .head-text {
-        font-size: 7.5rem;
-    }
-
-    .head-info {
-        margin: 10px 0px;
-    }
-
-    #spent-hours {
-        display: block;
-        padding-top: 40px;
-        float: right;
-        width: 50%;
-        height: 580px;
-        background-color: rgb(255, 245, 245);
-    }
-
-    .monthly-data {
-        padding-top: 40px;
-        width: 500px;
-        text-align: center;
-        font-size: 3rem;
-        background-color: white;
-        font-weight: bold;
-        position: relative;
-        bottom: -15px;
-        z-index: 1;
-        margin: 0px auto;
-    }
-
-    .monthly-data>span {
-        text-align: center;
-        color: green;
-        font-size: 4rem;
-        text-shadow: 1px 1px 2px black;
-    }
-
-
-    .clock {
-        position: absolute;
-        z-index: 2;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 3rem;
-        color: white;
-        border-radius: 50%;
-        background-color: red;
-        top: -20px;
-        right: -20px;
-        text-shadow: .5px .5px 1px black;
-    }
-
-    .spent-data {
-        margin: 0px auto;
-        position: relative;
-        width: 500px;
-        height: 400px
-    }
-
-    .spent-data>img {
-        width: 100%;
-        height: 100%;
-        margin: 0px auto;
-    }
-
-    .online-profile {
-        position: relative;
-        bottom: 90px;
-        left: -100px;
-        display: flex;
-    }
-
-    .online-profile>div {
-        width: 50px;
-        height: 60px;
-        border-radius: 50%;
-        overflow: hidden;
-        outline: 7px solid white;
-    }
-
-    .online-profile img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .user-count {
-        background-color: red;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        padding: 5px;
-    }
-
-    #categories {
-        clear: both;
-    }
-
-    .online-class {
-        height: 340px;
-    }
-
-    .discount-info {
+    h3.section-name {
+        left: -75px;
         font-size: 2rem;
-        /* line-height: 1; */
     }
 
-    .satisfied-unit {
-        padding: 4px;
-    }
-
-    .section-info {
+    h4.section-title {
         font-size: 4rem;
-        margin: 24px 0px 20px;
     }
 
-    .section-info>.top-text {
+    p.section-info {
+        font-size: 2.2rem;
+    }
+
+    .about-btn>.btn {
+        font-size: 2.5rem;
+    }
+
+    #project .section-data {
+        width: 634px;
+    }
+
+    .work-list>a {
+        width: 24%;
+    }
+
+    .project-1>div {
+        height: 100% !important;
+    }
+
+    .project-1>div {
+        height: 104% !important;
+    }
+
+    /* .project-2>div {
+        height: 100% !important;
+    } */
+
+    a.project-3 {
+        margin-top: -22%;
+    }
+
+    .project-3>div {
+        height: 100% !important;
+    }
+
+    a.project-4 {
+        margin-top: -22%;
+    }
+
+    .project-4>div {
+        height: 100% !important;
+    }
+
+    .project-5,.project-6{
+        display: none;
+    }
+
+    #contact-us>form {
+        width: 60%;
+    }
+
+    .input-box{
+        height: 40px;
+    }
+
+    .comment{
+        height: 120px;
+    }
+
+    input[type="submit"] {
+        height: 50px;
+        font-size: 2.8rem !important;
+    }
+
+    input {
+        font-size: 1.8rem !important;
+    }
+
+    h5.contact-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-icon {
+        margin-left: -34px;
         font-size: 3rem;
     }
-
-    #course-list>div {
-        display: flex;
-        flex-direction: row;
-        grid-gap: 20px;
-        min-height: 200px;
-    }
-
-    .course-cover,
-    .course-cover>img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .about {
-        padding-bottom: 30px;
-    }
-
-    .about .logo-text {
-        margin: 25px 0px;
-        color: red;
-        font-size: 8rem;
-    }
-
-    .about .logo-text::first-letter {
-        font-size: 7rem;
-    }
-
-    .about>p {
-        font-size: 2.6rem;
-    }
-
-    .social-icon {
-        width: 380px;
-    }
-
-    .social-icon>div {
-        width: 70px;
-        height: 70px;
-        font-size: 5.5rem;
-    }
-
-    .top-course>h4 {
-        font-size: 4rem;
-        text-align: center;
-    }
-
-    .course-img {
-        display: grid;
-        grid-template-columns: repeat(3, 144px);
-        grid-gap: 30px;
-        margin: 30px 100px;
-    }
-
-    footer {
-        font-size: 3rem;
-        padding: 5px;
-        min-height: 40px;
-    }
-
-
-
-
-
 
 }
