@@ -1,0 +1,517 @@
+@media screen and (min-width:600px) {
+    /* 
+    For Tablet Design 
+    */
+
+    .btn {
+        font-size: 3rem;
+        padding: 10px 15px;
+    }
+
+    .logo-text {
+        font-size: 4rem;
+    }
+
+    .protfolio-img {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .protfolio-info {
+        font-size: 5rem;
+        width: 450px;
+        margin: -69px auto 0px;
+    }
+
+    .get-tuch-btn {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    #my-achievement {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 60px 0px;
+    }
+
+    #my-achievement>div {
+        width: 47%;
+    }
+
+    .achievement-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 4rem;
+    }
+
+    .experience i {
+        font-size: 5.3rem;
+    }
+
+    .my-image {
+        height: 450px;
+        width: 400px;
+    }
+
+    h3.section-name {
+        font-size: 3rem;
+    }
+
+    h4.section-title {
+        font-size: 3rem;
+    }
+
+    p.section-info {
+        font-size: 2rem;
+    }
+
+    .about-btn {
+        flex-direction: row;
+    }
+
+    .about-btn>.btn {
+        font-size: 2rem;
+        width: 30%;
+    }
+
+    .technology {
+        height: 52px;
+        width: 250px;
+    }
+
+    .icon>div>div {
+        width: 130px;
+        height: 130px;
+    }
+
+    .icon-name {
+        top: -40px;
+        font-size: 2rem;
+    }
+
+    #project {
+        margin: 50px auto;
+    }
+
+    .work-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .work-list>a {
+        width: 48%;
+    }
+
+
+    .project-1>div {
+        height: 78% !important;
+    }
+
+    a.project-3 {
+        margin-top: -15%;
+    }
+
+    .project-3>div {
+        height: 78% !important;
+    }
+
+    a.project-5 {
+        margin-top: -18%;
+    }
+
+    .project-6>div {
+        height: 100% !important;
+    }
+
+    .contact-icon {
+        font-size: 3rem;
+    }
+
+    h5.contact-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-detels,
+    .contact-detels>a {
+        font-size: 2rem;
+    }
+
+    #contact-us>form {
+        width: 70%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    label {
+        font-size: 2.5rem;
+    }
+
+    .input-box {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    input,
+    textarea {
+        font-size: 2rem !important;
+    }
+
+    .comment {
+        height: 150px;
+    }
+
+    input[type="submit"] {
+        height: 50px;
+        font-size: 3rem !important;
+    }
+
+    .copy-right {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    /* 
+
+    For PC/Laptop Design 
+
+    */
+
+    nav {
+        border: none;
+        position: absolute;
+        z-index: 1;
+        width: 55%;
+        margin: 32px 25%;
+        top: 0;
+    }
+
+    nav>a {
+        font-size: 2rem;
+    }
+
+    .sidebar-btn {
+        display: none;
+    }
+
+    .protfolio-img {
+        width: 55%;
+        height: 430px;
+    }
+
+    .protfolio-img>img {
+        height: 564px
+    }
+
+    .protfolio-info {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .get-tuch-btn {
+        color: white;
+        text-shadow: .5px .5px 1px black;
+        box-shadow: .5px .5px 3px black;
+        border-color: white;
+        width: 30%;
+        margin: 0px auto 20px;
+        font-size: 2rem;
+    }
+
+    .get-tuch-btn:active {
+        box-shadow: none;
+    }
+
+    #my-achievement>div {
+        width: 31%;
+        padding: 10px 15px;
+        grid-gap: 10px;
+    }
+
+    .achievement-topic {
+        font-size: 1.9rem;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        grid-gap: 100px;
+        position: relative;
+    }
+
+    p.section-info {
+        margin: 30px 0px;
+    }
+
+
+    .my-image {
+        height: 400px;
+        width: 2200px;
+        margin: 0px;
+    }
+
+    .about-btn>.btn {
+        width: 40%;
+    }
+
+    .section-data {
+        position: relative;
+        margin-left: 15px;
+    }
+
+    h3.section-name {
+        position: absolute;   
+        left: -60px;
+        top: 40px;
+        transform: rotateZ(270deg);
+        text-decoration: none;
+        font-size: 1.7rem;
+    }
+
+    h3.section-name::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: -105px;
+        width: 70px;
+        height: 2px;
+        background: #404040;
+    }
+
+    #skill{
+        flex-direction: row;
+    }
+    
+    .icon {
+        width: 1300px;
+        margin-top: 40px;
+    }
+
+    .icon>div>div {
+        width: 90px;
+        height: 90px;
+    }
+
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+    /* 
+For Learge Screen 
+ */
+
+    html {
+        font-size: 8px;
+    }
+
+    .btn {
+        width: 300px;
+        font-size: 2.8rem;
+    }
+
+    #nav-bar>li>a {
+        font-size: 3rem;
+    }
+
+
+    #home {
+        width: 50%;
+        float: left;
+        height: 580px;
+    }
+
+    .head-text {
+        font-size: 7.5rem;
+    }
+
+    .head-info {
+        margin: 10px 0px;
+    }
+
+    #spent-hours {
+        display: block;
+        padding-top: 40px;
+        float: right;
+        width: 50%;
+        height: 580px;
+        background-color: rgb(255, 245, 245);
+    }
+
+    .monthly-data {
+        padding-top: 40px;
+        width: 500px;
+        text-align: center;
+        font-size: 3rem;
+        background-color: white;
+        font-weight: bold;
+        position: relative;
+        bottom: -15px;
+        z-index: 1;
+        margin: 0px auto;
+    }
+
+    .monthly-data>span {
+        text-align: center;
+        color: green;
+        font-size: 4rem;
+        text-shadow: 1px 1px 2px black;
+    }
+
+
+    .clock {
+        position: absolute;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: white;
+        border-radius: 50%;
+        background-color: red;
+        top: -20px;
+        right: -20px;
+        text-shadow: .5px .5px 1px black;
+    }
+
+    .spent-data {
+        margin: 0px auto;
+        position: relative;
+        width: 500px;
+        height: 400px
+    }
+
+    .spent-data>img {
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+    }
+
+    .online-profile {
+        position: relative;
+        bottom: 90px;
+        left: -100px;
+        display: flex;
+    }
+
+    .online-profile>div {
+        width: 50px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        outline: 7px solid white;
+    }
+
+    .online-profile img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .user-count {
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    #categories {
+        clear: both;
+    }
+
+    .online-class {
+        height: 340px;
+    }
+
+    .discount-info {
+        font-size: 2rem;
+        /* line-height: 1; */
+    }
+
+    .satisfied-unit {
+        padding: 4px;
+    }
+
+    .section-info {
+        font-size: 4rem;
+        margin: 24px 0px 20px;
+    }
+
+    .section-info>.top-text {
+        font-size: 3rem;
+    }
+
+    #course-list>div {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 20px;
+        min-height: 200px;
+    }
+
+    .course-cover,
+    .course-cover>img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about {
+        padding-bottom: 30px;
+    }
+
+    .about .logo-text {
+        margin: 25px 0px;
+        color: red;
+        font-size: 8rem;
+    }
+
+    .about .logo-text::first-letter {
+        font-size: 7rem;
+    }
+
+    .about>p {
+        font-size: 2.6rem;
+    }
+
+    .social-icon {
+        width: 380px;
+    }
+
+    .social-icon>div {
+        width: 70px;
+        height: 70px;
+        font-size: 5.5rem;
+    }
+
+    .top-course>h4 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .course-img {
+        display: grid;
+        grid-template-columns: repeat(3, 144px);
+        grid-gap: 30px;
+        margin: 30px 100px;
+    }
+
+    footer {
+        font-size: 3rem;
+        padding: 5px;
+        min-height: 40px;
+    }
+
+
+
+
+
+
+}
