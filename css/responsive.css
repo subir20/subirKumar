@@ -441,8 +441,14 @@ For Learge Screen
 
     figure {
         width: 40%;
+        margin: 0px 6%;
+    }
+    
+    .project-2{
         margin: 0px 2%;
     }
+
+
 
     .project-4 {
         top: 26.5%;
