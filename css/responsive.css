@@ -91,37 +91,43 @@
     }
 
     #project {
-        margin: 50px auto;
+        position: relative;
     }
 
-    .work-list {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
-    .work-list>a {
+    figure {
         width: 48%;
+        border: .5px solid rgb(0, 0, 0);
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        height: 400px;
+        /* position: absolute; */
     }
 
-
-    .project-1>div {
-        height: 78% !important;
+    figure>a {
+        position: relative;
     }
 
-    a.project-3 {
-        margin-top: -15%;
+    .project-2 {
+        position: absolute;
+        top: 12.5%;
+        right: 15px;
+        height: 300px !important;
     }
 
-    .project-3>div {
-        height: 78% !important;
+    .project-4 {
+        position: absolute;
+        top: 34%;
+        right: 15px;
+        height: 365px !important;
     }
 
-    a.project-5 {
-        margin-top: -18%;
-    }
-
-    .project-6>div {
-        height: 100% !important;
+    .project-6 {
+        position: absolute;
+        bottom: 2%;
+        right: 15px;
+        height: 550px !important;
     }
 
     .contact-icon {
@@ -225,6 +231,10 @@
         box-shadow: none;
     }
 
+    #my-achievement {
+        grid-gap: 100px;
+      }
+
     #my-achievement>div {
         width: 31%;
         padding: 10px 15px;
@@ -304,45 +314,27 @@
         margin: 10px 0px;
     }
 
-    .project-1>div {
-        height: 132% !important;
+    .project-2 {
+        top: 0%;
+        height: 410px !important;
     }
 
-    a.project-3 {
-        margin-top: 8%;
+    .project-4 {
+        top: 28%;
+        height: 430px !important;
     }
 
-    .project-3>div {
-        height: 123% !important;
+    .project-6 {
+        height: 630px !important;
     }
 
-    a.project-5 {
-        margin-top: 10%;
-    }
 
-    .project-5>div {
-        height: 100% !important;
-    }
-
-    .project-6>div {
-        display: none;
+    .social {
+        margin-top: 25px;
     }
 
     #contact-us {
         flex-direction: row;
-    }
-
-    .contact-icon {
-        margin-left: -25px;
-        font-size: 2.5rem;
-    }
-
-    h5.contact-title {
-        font-size: 2rem;
-    }
-
-    .social {
-        margin-top: 25px;
     }
 
     #contact-us>form {
@@ -378,8 +370,8 @@
         font-size: 2rem;
     }
 
-
 }
+
 
 @media screen and (min-width:1200px) {
 
@@ -387,11 +379,17 @@
 For Learge Screen 
  */
 
+
+    header,
+    section {
+        padding: 5%;
+    }
+
     nav {
         margin: 40px 25%;
     }
 
-    nav>a{
+    nav>a {
         font-size: 3rem;
     }
 
@@ -400,7 +398,7 @@ For Learge Screen
         height: 35px;
     }
 
-    .mode>i{
+    .mode>i {
         font-size: 2.8rem;
     }
 
@@ -441,51 +439,32 @@ For Learge Screen
         width: 634px;
     }
 
-    .work-list>a {
-        width: 24%;
+    figure {
+        width: 40%;
+        margin: 0px 8%;
     }
 
-    .project-1>div {
-        height: 100% !important;
+    .project-4 {
+        top: 26.5%;
+        height: 480px !important;
     }
 
-    .project-1>div {
-        height: 104% !important;
-    }
-
-    /* .project-2>div {
-        height: 100% !important;
-    } */
-
-    a.project-3 {
-        margin-top: -22%;
-    }
-
-    .project-3>div {
-        height: 100% !important;
-    }
-
-    a.project-4 {
-        margin-top: -22%;
-    }
-
-    .project-4>div {
-        height: 100% !important;
-    }
-
-    .project-5,.project-6{
-        display: none;
+    .project-6 {
+        position: absolute;
+        bottom: 4.4%;
+        right: 15px;
+        height: 620px !important;
     }
 
     #contact-us>form {
         width: 60%;
     }
 
-    .input-box{
+    .input-box {
         height: 40px;
     }
 
-    .comment{
+    .comment {
         height: 120px;
     }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +28,7 @@ li {
 }
 
 img {
+  /* position: absolute; */
   width: 100%;
   height: 100%;
 }
@@ -70,18 +73,19 @@ header {
 
 .logo-text {
   font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Paytone One', sans-serif;
   position: relative;
+  font-weight: bolder;
 }
 
 .logo-text::after {
   content: "";
   background-color: orangered;
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   position: absolute;
-  bottom: 7px;
-  margin-left: 3px;
+  bottom: 10px;
+  margin-left: 8px;
 }
 
 
@@ -156,6 +160,7 @@ nav>a {
   display: flex;
   flex-direction: column;
   grid-gap: 30px;
+  /* justify-content: space-between; */
 }
 
 #my-achievement>div {
@@ -165,6 +170,10 @@ nav>a {
   align-items: center;
   /* grid-gap: 30px; */
   background-color: #fff;
+}
+
+.client{
+  display: none !important;
 }
 
 .achievement-icon {
@@ -234,6 +243,7 @@ h3.section-name {
   text-decoration: underline solid rgb(56, 56, 56);
   text-underline-offset: 10px;
   text-decoration-thickness: 2px;
+  margin-bottom: 20px;
 }
 
 h4.section-title {
@@ -346,30 +356,8 @@ p.section-info {
   display: none !important;
 }
 
-#project {
-  margin-bottom: 50px;
-}
-
-.work-list {
-  display: flex;
-  grid-gap: 20px;
-  flex-direction: column;
-}
-
-.work-list>a>div {
-  border: 0.5px solid;
-  width: 95%;
-  height: 500px;
-  position: relative;
-  background-color: lightgray;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 2px 2px 10px black;
-  margin: 0px auto;
-}
-
 .project-img {
-  position: absolute;
+  /* position: relative; */
   height: 100%;
   width: 100%;
 }
@@ -424,7 +412,7 @@ p.section-info {
 }
 
 h5.contact-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* font-weight: bold; */
   text-transform: capitalize;
 }
@@ -558,6 +546,7 @@ input[type="submit"] {
 
 #contact-us{
   margin-bottom: 60px;
+  /* flex-direction: row; */
 }
 
 footer{
