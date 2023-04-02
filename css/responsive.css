@@ -86,8 +86,8 @@
     }
 
     .icon-name {
-        top: -40px;
-        font-size: 2rem;
+        top: -55px;
+        /* font-size: 2rem; */
     }
 
     #project {
@@ -175,6 +175,12 @@
     .copy-right {
         font-size: 2.5rem;
     }
+
+
+    .skills-icon>div:hover .icon-name {
+        opacity: 1;
+        top: -40px;
+      }
 }
 
 
@@ -383,6 +389,10 @@ For Learge Screen
     header,
     section {
         padding: 5%;
+    }
+
+    header{
+        padding: 3%;
     }
 
     nav {
