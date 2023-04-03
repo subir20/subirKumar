@@ -6,6 +6,7 @@
   box-sizing: border-box;
   user-select: none;
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -16,16 +17,16 @@ html {
   --white: black;
   --black: #d5d5d5;
   --dark-gray: white;
-/*   
-  --white: white;
-  --black: black;
-  --dark-gray: rgb(54, 54, 54); */
+  --light-gray: #969696;
+  --gray : rgb(236, 236, 236);
 }
 
 .dark-mode {
   --white: white;
   --black: black;
   --dark-gray: rgb(54, 54, 54);
+  --light-gray: rgb(104, 104, 104);
+  --gray : rgb(63, 63, 63);
 }
 
 body {
@@ -69,6 +70,7 @@ section {
   display: flex;
   flex-direction: column;
   grid-gap: 21px;
+  padding-top: 10%;
 }
 
 .top {
@@ -84,6 +86,8 @@ header {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  transition: background-color .5s;
+  z-index: 2;
   background-color: var(--black);
 }
 
@@ -136,19 +140,27 @@ header {
 
 .sidebar-btn {
   font-size: 2.5rem;
+  color: var(--white);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-top: .5px solid;
-  border-bottom: .5px solid;
-  border-color: gray;
+  align-items: self-end;
   position: relative;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
-  top: -40px;
+  height: 40px;
+  background-color: var(--black);
+  padding: 15px 5px 10px;
+  font-size: 1.5rem;
+  top: 0%;
+  transition: top .5s;
+
+}
+
+.nav-top{
+  top: 12%;
 }
 
 #home {
@@ -163,6 +175,7 @@ nav>a {
 }
 
 .protfolio-img {
+  margin-top: 30px !important;
   width: 100%;
   /* height: 330px; */
 }
@@ -344,7 +357,7 @@ p.section-info {
   color: var(--white);
 }
 
-.skills {
+.technology-style {
   background-color: orangered;
   text-shadow: 1px 1px 2px black;
   color: white !important;
@@ -374,6 +387,7 @@ p.section-info {
   margin: 0px auto;
 }
 
+
 .icon-name {
   position: absolute;
   top: -50px;
@@ -390,9 +404,6 @@ p.section-info {
   /* z-index: 20; */
 }
 
-.skills-icon {
-  display: none !important;
-}
 
 figure {
   overflow: hidden;
@@ -680,4 +691,9 @@ nav>a:hover::before {
 .icon>div>div:hover .icon-name {
   opacity: 1;
   top: -35px;
+}
+
+header,nav{
+  /* position: fixed !important; */
+  width: 100%;
 }

@@ -2,6 +2,11 @@ console.log('Hello World!');
 
 let inputBox = document.querySelectorAll(".input-box");
 let mode = document.querySelectorAll(".mode")[0];
+let header = document.querySelector("header");
+let nav = document.querySelector("nav");
+let technology = document.querySelector(".technology");
+let sidebarBtn = document.querySelector('.sidebar-btn');
+
 
 for (let i = 0; i < 4; i++) {
     inputBox[i].addEventListener("focusin",function(){
@@ -37,3 +42,41 @@ mode.onclick = function(){
     }
 }
 
+window.onscroll = function(){
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.querySelector("header").style.backgroundColor = "var(--gray)";
+        document.querySelector("nav").style.backgroundColor = "var(--gray)";
+        mode.style.backgroundColor="var(--light-gray)";
+
+    } else {
+        document.querySelector("header").style.backgroundColor = "";
+        document.querySelector("nav").style.backgroundColor = "";
+        mode.style.backgroundColor="var(--dark-gray)";
+    }
+
+    header.style.position="fixed";
+    nav.style.position="fixed";
+}
+
+technology.children[1].onclick= function(){
+    technology.children[0].classList.remove("technology-style");
+    this.classList.add("technology-style");
+
+    document.querySelector(".skills-icon").style.display="none";
+    document.querySelector(".tools-icon").style.display="flex";
+}
+
+technology.children[0].onclick= function(){
+    technology.children[1].classList.remove("technology-style");
+    this.classList.add("technology-style");
+
+    document.querySelector(".skills-icon").style.display="flex";
+    document.querySelector(".tools-icon").style.display="none";
+}
+
+sidebarBtn.onclick=function(){
+    document.querySelector("nav").classList.toggle("nav-top");
+
+    sidebarBtn.children[0].classList.toggle("fa-xmark");
+}

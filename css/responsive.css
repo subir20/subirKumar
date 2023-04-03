@@ -5,12 +5,21 @@
 
     .btn {
         font-size: 3rem;
-        padding: 10px 15px;
+        padding: 0px 15px 10px;
     }
 
     .logo-text {
         font-size: 4rem;
     }
+
+    nav{
+        font-size: 2.5rem;
+        padding: 12px 20px;
+    }
+
+    .nav-top{
+        top: 20%;
+      }
 
     .protfolio-img {
         width: 80%;
@@ -377,19 +386,19 @@
     /* 
 For Learge Screen 
  */
-
-
-    header,
-    section {
-        padding: 5%;
-    }
-
+    
+    
     header {
-        padding: 3%;
+        padding: 1% 3%;
+    }
+    
+    section{
+        padding: 5%;
+        padding-top: 7%;
     }
 
     nav {
-        margin: 40px 25%;
+        margin: 27px 25%;
     }
 
     nav>a {
