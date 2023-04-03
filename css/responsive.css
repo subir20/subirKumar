@@ -87,7 +87,6 @@
 
     .icon-name {
         top: -55px;
-        /* font-size: 2rem; */
     }
 
     #project {
@@ -97,12 +96,6 @@
 
     figure {
         width: 48%;
-        border: .5px solid rgb(0, 0, 0);
-        background-color: white;
-        padding: 10px;
-        border-radius: 10px;
-        height: 400px;
-        /* position: absolute; */
     }
 
     figure>a {
@@ -180,7 +173,7 @@
     .skills-icon>div:hover .icon-name {
         opacity: 1;
         top: -40px;
-      }
+    }
 }
 
 
@@ -239,7 +232,7 @@
 
     #my-achievement {
         grid-gap: 100px;
-      }
+    }
 
     #my-achievement>div {
         width: 31%;
@@ -391,7 +384,7 @@ For Learge Screen
         padding: 5%;
     }
 
-    header{
+    header {
         padding: 3%;
     }
 
@@ -406,6 +399,7 @@ For Learge Screen
     .mode {
         width: 70px;
         height: 35px;
+        padding-right: 7px;
     }
 
     .mode>i {
@@ -453,8 +447,8 @@ For Learge Screen
         width: 40%;
         margin: 0px 6%;
     }
-    
-    .project-2{
+
+    .project-2 {
         margin: 0px 2%;
     }
 
