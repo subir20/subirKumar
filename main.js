@@ -46,13 +46,13 @@ window.onscroll = function(){
 
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.querySelector("header").style.backgroundColor = "var(--gray)";
-        document.querySelector("nav").style.backgroundColor = "var(--gray)";
+        document.querySelector("nav").style.backgroundColor = "var(--color-opacity)";
         mode.style.backgroundColor="var(--light-gray)";
 
     } else {
         document.querySelector("header").style.backgroundColor = "";
         document.querySelector("nav").style.backgroundColor = "";
-        mode.style.backgroundColor="var(--dark-gray)";
+        mode.style.backgroundColor="var(--gray)";
     }
 
     header.style.position="fixed";
